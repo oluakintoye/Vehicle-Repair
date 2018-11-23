@@ -1,0 +1,551 @@
+div.tireform-checkbox {
+    float: left;  
+    margin-right: 1%;
+    padding-bottom: 10px;  
+    width: 49%;
+}
+.tire-checkbox {
+    float: left;
+    margin-top: 10px;
+}
+         
+p.wide-form-thanks {
+     font-size: 16px;
+     font-weight: bold;
+     padding: 60px;
+     color: #394248;
+}
+                
+p.wide-form-thanks img {
+        max-width: 650px;
+        padding-bottom: 20px;
+}
+  
+/* --------------------Coupon CSS----------------------*/*
+html .couponDiv { height:350px; }
+.couponDiv {	border-radius: 12px; 	-moz-border-radius: 12px; 	-webkit-border-radius: 12px; 	border: 2px dashed #050000;	width:900px; 	min-height:350px;	margin: 10px;	background-image:url(../images/coupon_bg.gif);background-repeat: no-repeat; background-color: white;	position: relative;	color: #222;	font: 14px arial,verdana,sans-serif;		text-align: left;	-webkit-box-shadow: 5px 2px 15px 5px rgba(191, 191, 191, .3);	-moz-box-shadow: 5px 2px 15px 5px rgba(191, 191, 191, .3);	box-shadow: 5px 2px 15px 5px rgba(191, 191, 191, .3); 	}
+.couponTextDiv {	top: 20px; 	left: 3%; 	padding-left: 20px; 	padding-top: 20px;	padding-bottom:100px;	width: 550px;	font: italic normal bold 45px/100% Arial, Helvetica, sans-serif;	color: #F00;		text-align: left;	float:left;}
+.couponDetail {	font: italic normal bold 20px/100% Arial, Helvetica, sans-serif;	color: #333;	padding-top: 5px;}
+.couponTextDiv ul {	font: italic normal bold 20px/100% Arial, Helvetica, sans-serif;	color: #333;	padding-top: 5px; list-style-type: disc; }
+.couponTextDiv ul li {	font: italic normal bold 20px/100% Arial, Helvetica, sans-serif;	color: #333;	padding-top: 5px;}
+.couponFineprint {	font: normal normal normal 14px/100% Arial, Helvetica, sans-serif;	color: #333;	width: 80%;	padding-top: 15px;	top: 100%; 	left: 1%; 	text-align: left;}
+.couponAddress {	float:right;	padding: 15px 15px 0 15px;	text-align: center;	background: #f5f5f5;	border-radius: 12px; 	-moz-border-radius: 12px; 	-webkit-border-radius: 12px; 	max-width:300px;	margin-bottom:100px;}
+.couponDateDiv {	position: absolute; 	bottom: 0; 	left: 0; 	padding-left: 15px;	padding-bottom: 15px;	font: normal small-caps normal 1.2em/100% Arial, Helvetica, sans-serif;}
+.couponImageDiv {	position: absolute; 	bottom: 0; 	right: 0; 	padding-right: 15px;	padding-bottom: 15px;	text-align: right;}
+*html .couponImageDiv img { width:expression( document.body.clientWidth > 75 ? "175px" : "auto"); height:expression( this.scrollHeight > 175 ? "175px" : "auto");}
+
+/* ------------------END Coupon CSS--------------------*/
+
+blockquote.withquote { background:url(../images/quote.png) no-repeat;background-position:top left; padding-left:25px;text-align:justify; }
+p.withunquote { background: url(../images/unquote.png) no-repeat; background-position:bottom right;padding-right:25px; }
+
+input.my-url{display:none;}
+
+/* Popup Forms */
+
+@font-face
+{
+	font-family: gothic;
+	src: url("../images/gothic.eot"); /* EOT file for IE */
+}
+@font-face
+{
+	font-family: gothic;
+	src: url("../images/gothic.TTF") format('truetype'); /* TTF file for CSS3 browsers */
+}
+
+@font-face
+{
+	font-family: gothic_bold;
+	src: url("../images/gothicb.eot"); /* EOT file for IE */
+}
+
+@font-face
+{
+	font-family: gothic_bold;
+	src: url("../images/gothicb.TTF") format('truetype'); /* TTF file for CSS3 browsers */
+}
+
+
+.fancy-wrapper
+{
+	width:979px;
+	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	background-color:#FFFFFF;
+	
+	margin:0px auto;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.one_whole
+{
+	width:95%;
+	position:relative;
+	margin:0px auto;
+}
+
+.fancy-wrapper h1
+{
+	font-family:gothic_bold;
+	font-size:40px;
+	color:#2E3138;
+	margin:0px;
+}
+
+.first_half
+{
+	width:48%;
+	float:left;
+}
+
+.last_half
+{
+	width:48%;
+	float:right;
+}
+
+
+.form input[type="text"]
+{
+	width:100%;
+	height:37px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	background-color:#CDCDCD;
+	
+	border:none;
+	
+	font-family:gothic;
+	font-size:13px;
+	color:#394248;
+	
+	padding-left:5px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.form .select_styled
+{
+        overflow:hidden; /* this hides the select's drop button */
+    padding:0;
+    margin:0;
+    background: url(../images/fancybox-select_btn.png) no-repeat bottom right;
+
+        width:100%;
+        height:37px;
+        -moz-border-radius:5px;
+        border-radius:5px;
+
+        background-color:#828282;
+        margin-bottom:12px;
+
+        font-family:gothic;
+        font-size:13px;
+        color:#FFFFFF;
+        padding-left:5px;
+
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+
+#survey_table
+{
+	width:100%;
+}
+
+#survey_table td
+{
+	font-family:gothic;
+	font-size:13px;
+	color:#2E3138;
+	text-align:center;
+	padding:5px 0px;
+}
+
+#survey_table td:first-child, #survey_table th:first-child
+{
+	border-right:1px solid #666666;
+	padding-left:10px;
+}
+
+.arrow_down
+{
+	padding:0px!important;
+	vertical-align:text-top;
+	text-align:center;
+}
+
+#survey_table th
+{
+	font-family:gothic_bold;
+	font-size:20px;
+	color:#2E3138;
+	text-align:left;
+	padding-top:10px;
+}
+
+#survey .gray_tr
+{
+	background-color:#E6E6E6;
+}
+
+input[type=radio].css-checkbox
+{
+	display:none;
+}
+
+input[type=radio].css-checkbox + label.css-label
+{
+	padding-left:18px;
+	height:18px; 
+	display:inline-block;
+	line-height:22px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=radio].css-checkbox:checked + label.css-label
+{
+	background-position: 0 -18px;
+}
+
+label.css-label
+{
+	background-image:url(../images/fancybox-radio_btn.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#survey_textarea
+{
+	background-color:#CDCDCD;
+	font-family:gothic;
+	font-size:13px;
+	color:#2E3138;
+	height:104px;
+	border:none;
+	padding:5px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:inherit;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:inherit;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:inherit;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:inherit;
+}
+
+#survey_submit
+{
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:37px;
+	padding: 0px 20px;
+	border: none;
+	
+	color:#FFFFFF;
+	font-family:gothic_bold;
+	font-size:20px;
+	cursor:pointer;
+	
+	background-color:#828282;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        border:none;
+}
+
+/** APPOINTMENT REQUEST **/
+.form_1
+{
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #828282;
+}
+
+.form_1_top
+{
+	background-color:#828282;
+	height:11px;
+}
+
+.form_1_format input[type=text]
+{
+	width:100%;
+	height:37px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:none;
+	background-color:#CDCDCD;
+	margin-bottom:12px;
+	
+	font-family:gothic;
+	font-size:13px;
+	color:#394248;
+	padding-left:8px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.form_1 select
+{
+	width:115% /* this percentage effectively extends the drop down button out of view */; 
+    background-color:transparent /* this hides the select's background making any styling visible from the div */; 
+    background-image:none; 
+    -webkit-appearance: none /* this is required for Webkit browsers */; 
+    border:none; 
+    box-shadow:none; 
+    padding:0.3em 0.5em; /* padding should be added to the select, not the div */
+}
+
+.form_1 .select_styled
+{
+	overflow:hidden; /* this hides the select's drop button */
+    padding:0; 
+    margin:0; 
+    background: url(../images/fancybox-select_btn.png) no-repeat bottom right;
+	
+	width:100%;
+	height:37px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	
+	background-color:#828282;
+	margin-bottom:12px;
+	
+	font-family:gothic;
+	font-size:13px;
+	color:#FFFFFF;
+	padding-left:5px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#appointment h2
+{
+	font-family:gothic_bold;
+	font-size:16px;
+	color:#394248;
+	font-weight:normal;
+}
+
+#type_of_appointment_tbl
+{
+	width:100%;
+	max-width:356px;
+	margin:35px auto;
+	
+	font-family:gothic;
+	color:#394248;
+	font-size:13px;
+}
+
+#type_of_appointment_tbl label
+{
+	padding-left:22px;
+}
+
+#type_of_appointment_tbl td:first-child
+{
+	width:50%;
+}
+
+.small_notes
+{
+	font-family:gothic_bold;
+	font-size:11px;
+	color:#394248;
+}
+
+.form_1 textarea
+{
+	width:100%;
+	
+	-moz-border-radius:5px;
+	border-radius:5px;
+	border:none;
+	background-color:#CDCDCD;
+	margin-bottom:12px;
+	
+	font-family:gothic;
+	font-size:13px;
+	color:#394248;
+	padding-left:5px;
+	
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.form_1_submit
+{
+	background-position:right top;
+	background-repeat:no-repeat;
+	height:37px;
+	padding: 0px 20px;
+	border: none;
+	
+	color:#FFFFFF;
+	font-family:gothic_bold;
+	font-size:20px;
+	cursor:pointer;
+	
+	background-color:#828282;
+        -moz-border-radius:5px;
+        border-radius:5px;
+        border:none;
+}
+
+/** AUTO REPAIR PAGE **/
+
+#auto_repair h2
+{
+	font-family:gothic_bold;
+	font-size:16px;
+	color:#687A95;
+	font-weight:normal;
+}
+
+/** MODAL **/
+
+#show
+{
+}
+
+.fancybox-wrap
+{
+	width:auto!important;
+}
+
+.fancybox-opened .fancybox-skin
+{
+	padding:0px!important;
+}
+
+.fancybox-inner
+{
+	overflow:auto!important;
+	background-color:#FFFFFF;
+	
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 979px) {
+
+	.fancy-wrapper
+	{
+		width:95%;
+	}
+
+}
+
+@media screen and (max-width: 765px) {
+	
+	.first_half
+	{
+		float:none;
+		display:block;
+		width:100%;
+	}
+	
+	.last_half
+	{
+		float:none;
+		display:block;
+		width:100%;
+		margin-top:20px;
+	}
+	
+	.form input[type="text"]
+	{
+		margin-bottom:15px;
+	}
+	
+	#calendarDiv
+	{
+		left:auto!important;
+		right:15%;
+	}
+	
+	.choices
+	{
+		font-size:10px!important;
+	}
+	
+	#survey_table td:first-child, th:first-child
+	{
+		font-size:11px!important;
+	}
+
+}
+
+
+#recaptcha_area, #recaptcha_table {
+	margin: 0 auto !important;
+	padding-bottom: 10px;
+}
+
+#recaptcha_response_field { line-height: 1 !important; }
+
+ul.noIndent2 {
+	margin: .2em; padding-left: 2.0em;width: 90%;
+}
+
+#sales-table img {
+     width: 250px;
+}
+
+/* -----------------------End popup forms------------------- */
+
+.headercell_l, .headercell_c, .headercell_r { font: 12px arial,sans-serif; font-weight: bold; border: 1px solid; border-color: #999999; background-color: #336699; color:#FFFFFF; }
+.infocell_l, .infocell_c, .infocell_r { font: 12px arial,sans-serif; border: 1px solid; border-top: 0; border-color: #777777; background-color:#DDDDDD; color:#000000; }
+.infotable { font: 12px arial,sans-serif; }
+
+.head { font-size: 14px; font-weight: bold; }
+
+.subheader1 { color: #ffffff; font: 14px arial,verdana,sans-serif; text-align:center; font-weight: bold; }
+.subheader2 { color: #003366; font: 14px arial,verdana,sans-serif; font-weight: bold; }
+.subheader3 { color: #003366; font: 12px arial,verdana,sans-serif;}
+
+p.white { color: #ffffff !important; }
+
+.products { padding-top: 20px; margin-top: 30px; overflow: hidden; }
+.products ul { list-style-type: none;  }
+.products ul li { float: left; display: inline; padding: 0 10px 28px 20px; min-height:85px;}
+
+.cl { display: block; clear: both; }
+
+.location_page_info table  table  { width: auto; border-collapse: separate; border-spacing: 10px; }
+
+#map_canvas {
+    width: auto !important;
+}
+#map_canvas a { color: #000000; }
+#autonet_blog .video-js { height: 150px !important; width: 300px !important; }
+
+/*#autonet_blog video { width: 95% !important; height: auto !important; }*/

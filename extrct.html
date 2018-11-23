@@ -1,0 +1,66 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"/>
+        <link rel="manifest" href="manifest.json">
+        <link rel="apple-touch-icon" href="https://s3-eu-west-1.amazonaws.com/platform-revl/static/images/icons/apple-icon-big.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://s3-eu-west-1.amazonaws.com/platform-revl/static/images/icons/apple-icon-big.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://s3-eu-west-1.amazonaws.com/platform-revl/static/images/icons/apple-icon-big.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="https://s3-eu-west-1.amazonaws.com/platform-revl/static/images/icons/apple-icon-big.png">
+        <meta name="mobile-web-app-capable" content="yes"><meta name="google-site-verification" content="6GHdOLZQ99Rf6xiVu9ciuv2vO4PJSqLmTDYxf4EiSBc"/>
+        <meta name="description" content="REVL is the UK's largest event listing website. Find things to do near you anytime, this week, weekend or in the future.
+         We offer ticket listings so you can compare prices, search for events near you and share event with your friends.">
+        <title>REVL | Whats on in the UK & London, Tickets, Things to do, events</title>
+
+        <script src="/settings.js"></script>
+
+        <script>
+        !function(){var t=window.analytics=window.analytics||[];
+        if(!t.initialize)if(t.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");
+        else{t.invoked=!0,
+        t.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"],
+        t.factory=function(e){return function(){var n=Array.prototype.slice.call(arguments);
+        return n.unshift(e),t.push(n),t}};
+        for(var e=0;e<t.methods.length;e++){var n=t.methods[e];
+        t[n]=t.factory(n)}t.load=function(t){
+        var e=document.createElement("script");
+        e.type="text/javascript",e.async=!0,e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";
+        var n=document.getElementsByTagName("script")[0];
+        n.parentNode.insertBefore(e,n)},t.SNIPPET_VERSION="4.0.0"}
+        window.analytics.load(window.settings.SEGMENT_TOKEN)}()
+        </script>
+        
+        <script>
+        window.onerror = function (message, url, lineNo, colNo, error) {
+        console.log(arguments);
+        let container = document.createElement('div');
+
+        container.style.color = 'red';
+        container.style.position = 'fixed';
+        container.style.background = '#eee';
+        container.style.padding = '2em';
+        container.style.top = '1em';
+        container.style.left = '1em';
+
+        let msg = document.createElement('pre');
+        msg.innerText = [
+          'Message: ' + message,
+          'URL: ' + url,
+          'Line: ' + lineNo,
+          'Column: ' + colNo,
+          'Stack: ' + (error && error.stack)
+        ].join('\n');
+
+        container.appendChild(msg);
+
+        document.body.appendChild(container);
+      };
+      </script>
+      </head>
+      <body>
+          <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
+          <div id="app"></div>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzVDPK7f3ft7d_Qhw-RmhLLaSiBwvJmMk&libraries=places"></script>
+          <script type="text/javascript" src="/main.bfe4f33fd1906ca0acb1.js"></script>
+          </body>
+          </html>
